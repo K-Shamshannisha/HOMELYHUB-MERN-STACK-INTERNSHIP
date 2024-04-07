@@ -34,7 +34,7 @@ import Accomodation from "./Components/Accomodation/Accomodation"
 
 function App() {
   const stripePromise=loadStripe(
-    "pk_test_51P2GKNECxSGv0Ci6pVZlzuBJzQQB8oGQYRYCbTQHK9QIrOeqazASz1Ll78Y4klcEYQlNYAtRg6qv4msZeTp3ViVb00cYnjtIb9"
+    "..////..//"
     );
   const dispatch=useDispatch()
   const {errors}=useSelector((state)=>state.user)
